@@ -1119,4 +1119,5 @@
   </project>
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/mainline.xml" />
 </manifest>
