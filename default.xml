@@ -47,7 +47,7 @@
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" remote="aosp" />
-  <project path="build/release" name="CaesiumDesktop/build_release" groups="pdk,tradefed,sysui-studio" remote="aosp" revision="refs/heads/17" />
+  <project path="build/release" name="CaesiumDesktop/build_release" groups="pdk,tradefed,sysui-studio" revision="refs/heads/17" />
   <project path="build/soong" name="CaesiumDesktop/build_soong" groups="pdk,tradefed,sysui-studio" revision="refs/heads/17" />
   <project path="art" name="LineageOS/android_art" groups="pdk" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
