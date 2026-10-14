@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- APPs -->
+  <project path="packages/apps/DisplayModes" name="android_packages_apps_DisplayModes" groups="mainline" remote="Mainline" />
+
+  <!-- Boot manager -->
+  <project path="prebuilts/bootmgr" name="android_prebuilts_bootmgr" groups="mainline" remote="Mainline" revision="master"/>
+
+  <!-- HALs -->
+  <project path="external/drm_hwcomposer-upstream" name="android_external_drm_hwcomposer-upstream" groups="mainline" remote="Mainline" />
+  <project path="external/libdisplay-info-upstream" name="android_external_libdisplay-info-upstream" groups="mainline" remote="Mainline" />
+  <project path="external/minigbm-upstream" name="android_external_minigbm-upstream" groups="mainline" remote="Mainline" />
+  <project path="external/tinyhal" name="android_external_tinyhal" groups="mainline,mainline_dep_lineageos" remote="Mainline-dep-LineageOS" />
+  <project path="hardware/intel/sensors-iio" name="android_hardware_intel_sensors-iio" groups="mainline,mainline_dep_lineageos" remote="Mainline-dep-LineageOS" />
+ <!-- Misc -->
+  <project path="external/libqrencode" name="android_external_libqrencode" groups="mainline,mainline_external" remote="Mainline" revision="master" />
+
+  <!-- Mainline repositories -->
+  <project path="external/linux-firmware-mainline" name="android_external_linux-firmware-mainline" groups="mainline" remote="Mainline" />
+  <project path="hardware/mainline/common" name="android_hardware_mainline_common" groups="mainline" remote="Mainline" />
+  <project path="kernel/mainline/configs" name="android_kernel_mainline_configs" groups="mainline" remote="Mainline" />
+  <project path="device/mainline/common" name="android_device_mainline_common" groups="mainline" remote="Mainline" />
+  <project path="vendor/mainline" name="android_vendor_mainline" groups="mainline" remote="Mainline" />
+  
+  <!-- Mainline kernel -->
+  <project path="kernel/mainline/android-mainline" name="kernel/common" groups="mainline,mainline_device_misc,mainline_kernel" remote="Mainline-dep-AOSP" revision="android-mainline" />
+  
+  <!-- Device trees -->
+  <project path="device/mainline/generic" name="android_device_mainline_generic" groups="mainline,mainline_device_misc" remote="Mainline" />
+  <project path="packages/apps/MainlineGenericSystemInstaller" name="android_packages_apps_MainlineGenericSystemInstaller" groups="mainline,mainline_device_misc" remote="Mainline" />
+  <project path="device/pc/basic_x86_64_pc" name="android_device_pc_basic_x86_64_pc" groups="mainline,mainline_device_misc" remote="Mainline" />
+  <project path="device/virt/virt-common" name="android_device_virt_virt-common" groups="mainline,mainline_device_virt" remote="Mainline" />
+
+  <project path="device/virt/vboxware" name="android_device_virt_vboxware" groups="mainline,mainline_device_virt" remote="Mainline" />
+
+  <project path="device/virt/virtio-common" name="android_device_virt_virtio-common" groups="mainline,mainline_device_virt" remote="Mainline" />
+  <project path="device/virt/virtio_arm64" name="android_device_virt_virtio_arm64" groups="mainline,mainline_device_virt" remote="Mainline" />
+  <project path="device/virt/virtio_arm64only" name="android_device_virt_virtio_arm64only" groups="mainline,mainline_device_virt" remote="Mainline" />
+  <project path="device/virt/virtio_x86_64" name="android_device_virt_virtio_x86_64" groups="mainline,mainline_device_virt" remote="Mainline" />
+  <project path="device/virt/virtio_x86_64_car" name="android_device_virt_virtio_x86_64_car" groups="mainline,mainline_device_virt" remote="Mainline" />
+  <project path="device/virt/virtio_x86_64_tv" name="android_device_virt_virtio_x86_64_tv" groups="mainline,mainline_device_virt" remote="Mainline" />
+  
+  <!-- Hardware components dependencies -->
+  <project path="external/mainline-hw-deps/alsa-lib" name="android_external_alsa-lib" groups="mainline,mainline_external" remote="Mainline" revision="lineage-24.0" />
+  <project path="external/mainline-hw-deps/alsa-ucm-conf" name="android_external_alsa-ucm-conf" groups="mainline,mainline_external" remote="Mainline" revision="lineage-24.0" />
+  <project path="external/mainline-hw-deps/glib" name="android_external_glib" groups="mainline,mainline_external" remote="Mainline" revision="main" />
+  <project path="external/mainline-hw-deps/libqmi" name="android_external_libqmi" groups="mainline,mainline_external" remote="Mainline" revision="main" />
+  <project path="external/mainline-hw-deps/libqrtr-glib" name="android_external_libqrtr-glib" groups="mainline,mainline_external" remote="Mainline" revision="main" />
+  <project path="external/mainline-hw-deps/libssc" name="android_external_libssc" groups="mainline,mainline_external" remote="Mainline" revision="main" />
+  <project path="external/mainline-hw-deps/protobuf-c" name="android_external_protobuf-c" groups="mainline,mainline_external" remote="Mainline" revision="master" />
+
+  <!-- Mesa -->
+  <project path="external/libdrm-upstream" name="android_external_libdrm-upstream" groups="mainline" remote="Mainline" />
+  <project path="external/mesa" name="android_external_mesa" groups="mainline" remote="Mainline" />
+  <project path="prebuilts/mesa-build-dep" name="android_prebuilts_mesa-build-dep" groups="mainline" remote="Mainline" />
+</manifest>
